@@ -1,0 +1,108 @@
+.meezan-bio{
+    background-color: #304674;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.bio-picture{
+    background-color: blue;
+    display: block;
+    height: 100%;
+    width: 900px;
+}
+
+.bio-picture img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 700px;
+}
+
+.bio-info{
+    background-color: aliceblue;
+    display: block;
+    color: black;
+    padding: 35px;
+    height: auto;
+    width: 100%;
+}
+
+.bio-info h1{
+    margin-top: 100px;
+}
+
+.bio-info h2{
+    margin-top: 20px;
+}
+
+.bio-info h3{
+    margin-top: 20px;
+}
+
+
+.bio-info p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.download-cv{
+    margin-top: 20px;
+}
+.download-button{
+    background-color: #304674;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    background-color: #555; 
+    transition: 0.5s;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 30px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #ae241b; 
+  }
+
+
+@media only screen and (max-width: 1300px) {
+    .meezan-bio{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 460px;
+        display: block;
+
+    }
+    
+    .bio-picture{
+        width: 100%;
+    }
+
+    .bio-picture img{
+        height: 600px;
+    }
+
+    .bio-info{
+        width: 100%;
+    }
+
+    .download-cv{
+        text-align: center;
+    }
+    
+}
