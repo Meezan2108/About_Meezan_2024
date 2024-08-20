@@ -1,0 +1,253 @@
+body{
+    background-color: #fffaee;
+}
+
+.intro{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+}
+
+.intro img{
+    margin-top: 20px;
+    width: 90px;
+}
+
+.intro h1{
+    font-size: 30px;
+}
+
+.intro h2{
+    padding: 40px;
+    font-size: 18px;
+}
+
+.info-section {
+    border: 4px dashed #ae241b;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.picture-info{
+    width: 30%;
+    height: 100%;
+}
+
+.picture-info img{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.left-sub-info{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+}
+
+.left-sub-info li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.left-sub-info h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+ 
+
+.left-sub-info h2{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+
+.left-sub-info p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.status{
+    width: 90%;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+}
+
+.programming-languages{
+    padding: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.programming-languages h2{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.status-bar-html{
+    background-color: gray;
+    border-radius: 30px;
+    height: 25px;
+    width: 100%;
+}
+
+.progress-advance{
+    background-color: purple;
+    color: #fffaee;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 25px;;
+    width: 95%;
+}
+.progress-capable{
+    background-color: purple;
+    color: #fffaee;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 25px;;
+    width: 75%;
+}
+
+.progress-beginner{
+    background-color: purple;
+    color: #fffaee;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 25px;;
+    width: 50%;
+}
+
+.skills{
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+.skills h2{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.skills img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    background-color: #555; 
+    transition: 0.5s;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 30px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #ae241b; 
+  }
+
+  @media only screen and (max-width: 1300px){
+
+    .info-section{
+        height: 100%;
+        width: 90%;
+        display: block;
+    }
+
+    .info-section p{
+        font-size: 14px;
+    }
+
+    .info-section ul li{
+        margin-left: 20px;
+        list-style: none;
+        font-size: 14px;
+    }
+
+    .left-sub-info{
+        width: 100%;
+    }
+
+
+    .picture-info{
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    .left-sub-info h1{
+        text-align: center;
+    }
+
+    .picture-info img{
+        width: 80%;
+        height: 100%;
+    }
+
+    .left-sub-info p{
+        text-align: center;
+    }
+
+    .status{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .programming-languages{
+        width: 80%;
+        padding: 10px;
+        height: 100%;
+        border-left: none;
+    }
+
+    .programming-languages h2{
+        margin-top: 20px;
+    }
+
+    .skills{
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;;
+    }
+
+    .skills h2{
+        margin-top: 20px;
+    }
+
+
+  }
