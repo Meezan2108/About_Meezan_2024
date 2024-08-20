@@ -1,0 +1,132 @@
+body{
+    background-color: #fffaee;
+}
+
+
+.intro{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+}
+
+.intro img{
+    margin-top: 100px;
+    width: 90px;
+}
+
+.intro h1{
+    font-size: 30px;
+}
+
+.intro h2{
+    padding: 40px;
+    font-size: 18px;
+}
+
+
+.work-exp-info{
+    border-radius: 10px;
+    line-height: 20px;
+    display: flex;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 95%;
+}
+
+.work-exp-info h1{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.work-exp-info p{
+   text-align: left;
+}
+
+.company-logo{
+    padding: 10px;
+    width: 20%;
+    height: 300px;
+}
+
+.company-logo img{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.company-info{
+    border-left: 5px dashed #ae241b;
+    width: 80%;
+    height: 100%;
+}
+
+.company-info p{
+  padding: 20px;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    background-color: #555; 
+    transition: 0.5s;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 30px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #ae241b; 
+  }
+
+
+  @media only screen and (max-width: 1300px)
+  {
+   
+    .work-exp-info{
+    height: 100%;
+    width: 80%;
+    display: block;
+    border-left: 5px dashed #ae241b;
+    }
+
+    .company-info{
+        width: 100%;
+        height: 100%;
+        border-left: none;
+    }
+
+    .company-logo{
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    .company-info h1{
+        text-align: center;
+    }
+
+    .company-logo img{
+        width: 80%;
+        height: 100%;
+    }
+
+    .company-info p{
+        text-align: justify;
+    }
+    
+
+  }
