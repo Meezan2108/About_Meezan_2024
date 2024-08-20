@@ -11,7 +11,7 @@ body{
 }
 
 .intro img{
-    margin-top: 20px;
+    margin-top: 100px;
     width: 90px;
 }
 
@@ -223,7 +223,6 @@ body{
     .status{
         height: 100%;
         width: 100%;
-        position: relative;
         display: block;
     }
 
