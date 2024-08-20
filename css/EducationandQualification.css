@@ -1,0 +1,153 @@
+body{
+    background-color: #fffaee;
+}
+
+.intro{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+}
+
+.intro img{
+    margin-top: 100px;
+    width: 90px;
+}
+
+.intro h1{
+    font-size: 30px;
+}
+
+.intro h2{
+    padding: 40px;
+    font-size: 18px;
+}
+
+.education-info{
+    display: flex;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 95%;
+}
+
+.education-info h1{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.education-info p{
+   text-align: left;
+}
+
+.school-logo{
+    padding: 10px;
+    width: 20%;
+    height: 600px;
+}
+
+.school-logo img{
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.education-subinfo{
+    border-left: 5px dashed #ae241b;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+}
+
+.education-subinfo p{
+  padding: 20px;
+}
+
+.modules{
+    height: 270px;
+    width: 90%;
+    display: flex;
+}
+
+
+.modules li{
+    float: left;
+    border-bottom:1px solid #ccc;
+    line-height: 30px;
+    margin-left: 30px;
+    display: inline;
+}
+
+.projects{
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  @media only screen and (max-width: 1300px)
+  {
+
+    .education-info{
+        height: 100%;
+        width: 80%;
+        display: block;
+        text-align: center;
+        border-left: 5px dashed #ae241b;
+    }
+
+    .education-subinfo{
+        width: 100%;
+        height: 100%;
+        border-left: none;
+    }
+
+        .school-logo{
+            height: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 85%;
+        }
+
+    .modules{
+        height: 100%;
+        text-align: left
+    }
+    
+
+    .school-logo img{
+        width: 110px;
+
+    }
+
+    .courses{
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+    .projects{
+        text-align: left;
+        margin-top: 100px;
+    }
+  }
+  

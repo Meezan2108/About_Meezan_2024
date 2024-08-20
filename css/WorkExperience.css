@@ -73,24 +73,6 @@ body{
   padding: 20px;
 }
 
-#myBtn {
-    display: none; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    background-color: #555; 
-    transition: 0.5s;
-    color: white; 
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 30px; 
-    font-size: 18px; 
-  }
-  
-  #myBtn:hover {
-    background-color: #ae241b; 
-  }
-
 
   @media only screen and (max-width: 1300px)
   {
