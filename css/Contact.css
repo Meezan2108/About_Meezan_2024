@@ -1,0 +1,155 @@
+
+body{
+    background-color: #fffaee;
+}
+
+
+.intro{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+}
+
+.intro img{
+    margin-top: 100px;
+    width: 90px;
+}
+
+.intro h1{
+    font-size: 30px;
+}
+
+.intro h2{
+    padding: 40px;
+    font-size: 18px;
+}
+
+
+.contact-info{
+    display: flex;
+    width: 100%;
+}
+.form-input{
+    padding: 10px;
+    width: 50%;
+}
+
+.personal-info{
+    padding: 20px;
+    width: 50%;
+
+}
+
+form{
+    background-color: #fffaee;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 80%;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+.submit-btn{
+    margin-top: 40px;
+    width: 30%;
+}
+
+.subdetails{
+    background-color: #fffaee;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 90%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.subdetails p{
+    margin-bottom: 30px;
+}
+
+  @media only screen and (max-width: 1300px){
+
+    .intro img{
+        margin-top: 90px;
+    }
+    .contact-info{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+
+    .form-input{
+        height: 100%;
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+        padding: 5px;
+    }
+
+
+    .personal-info{
+        width: 100%;
+        padding: 1px;
+        height: 100%;
+    }
+
+    .left-sub-info p{
+        font-size: 14px;
+    }
+
+    .subdetails{
+        width: 100%;;
+    }
+
+    .left-sub-info p{
+        text-align: left;
+    }
+
+    .status{
+        height: 100%;
+        width: 90%;
+        position: relative;
+        display: block;
+    }
+
+    .programming-languages{
+        width: 80%;
+        padding: 10px;
+        height: 100%;
+        border-left: none;
+    }
+
+    .skills{
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;;
+    }
+
+  }
+
+
+
+
