@@ -84,7 +84,7 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        width: 460px;
+        width: 100%;
         display: block;
 
     }
@@ -94,11 +94,15 @@
     }
 
     .bio-picture img{
-        height: 600px;
+        height: 500px;
     }
 
     .bio-info{
         width: 100%;
+    }
+
+    .bio-info p{
+        font-size: 16px;
     }
 
     .download-cv{
