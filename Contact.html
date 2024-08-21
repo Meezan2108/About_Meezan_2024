@@ -45,17 +45,22 @@
         </h2>
         <div class="contact-info">
             <div class="form-input">
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                    <input type="hidden" name="access_key" value="4c02b378-f05c-4000-a360-891cabed7e39">
                     <label for="firstname">First Name: </label><br>
-                    <input type="text" id="firstname"><br>
+                    <input type="text" name="first name" placeholder="Your First Name" class="contact-inputs" required><br>
+
                     <label for="lastname">Last Name: </label><br>
-                    <input type="text" id="lastname"><br>
-                    <label for="email">Contact: </label><br>
-                    <input type="text" id="email"><br>
+                    <input type="text" name="last name" placeholder="Your Last Name" class="contact-inputs" required><br>
+
+                    <label for="contact">Contact: </label><br>
+                    <input type="text" name="contact" placeholder="Your Contact No." class="contact-inputs" required><br>
+
                     <label for="email">Email: </label><br>
-                    <input type="text" id="email"><br>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required><br>
+
                     <label for="message">Your Question/Message: </label><br>
-                    <input type="text" id="firstname"><br>
+                    <textarea name="message/questions" placeholder="Your Message" class="contact-inputs"></textarea>
         
                     <input class="submit-btn" type="submit" value="Submit">
                 </form>
